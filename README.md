@@ -12,6 +12,7 @@ So after a lot of time spent trying to "revive" my cell phone, I got it, I thoug
 
 # 🔗 Usage
 
+Note: If you choosed the compiled C script, it's just ./auto-reapair (in location where is the script) on cmd/terminal;
 - The script has been tested on linux (Ubuntu) and a windows port will soon be made
 - First, it will check if you already have ADB-Tools and Fastboot, if you don't have, don't worry, it will download it for you
 - Second, it will ask you if you want to download the ROM to your device (highly recommended, as it comes from a fully updated mirror)
