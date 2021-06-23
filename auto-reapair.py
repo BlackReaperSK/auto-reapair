@@ -11,7 +11,7 @@ def LookAndInstall():
         try:
             print('[V] Installing ADB-Tools and our dependencies...')
             sleep(1.5)
-            comando('sudo apt-get install android-tools-adb;sudo apt-get install android-tools-fastboot')
+            comando('sudo apt install android-tools-adb;sudo apt install android-tools-fastboot')
             fastboot = os.popen('fastboot -help').readlines(); fastboot[0]
             comando('clear')
             print("[ADB-Tools] Successfully installed!")   
@@ -96,7 +96,7 @@ def Detect_And_Install():
 
 def Main():
     LookAndInstall()
-    q = input('[|] Deseja baixar a rom apropriada para seu dispositivo? [Y/N]: ')
+    q = input('[|] Do you want to download an appropriate ROM for your device? [Y/N]: ')
     if 'Y' in q or 'y' in q:
         try:
             dispositivo = input('[V] Please, enter your device: ')
