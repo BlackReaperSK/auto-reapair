@@ -2,7 +2,7 @@
 ![Android Bootloader](https://www.centralandroid.com.br/wp-content/uploads/2018/09/android-bootloader-1280x720.jpg)
 
 
-So you bricked your cell phone and you can't start it at all? Infinite loop on home screen? Corrupted partitions? Recovery failed? So I have the solution for you my dear, Auto-Reapair is an easy-to-use auto-repair tool that automatically downloads and installs the ROM for your device, making it factory default again (and sometimes even more up to date), Auto-Reapair will end your device's problems in just a few minutes (Requires unlocked bootloader for ROM installation)
+So you bricked your cell phone and you can't start it at all? Infinite loop on home screen? Corrupted partitions? Recovery failed? Yeah,I have the solution for you my dear, Auto-Reapair is an easy-to-use auto-repair tool that automatically downloads and installs the ROM for your device, making it factory default again (and sometimes even more up to date), Auto-Reapair will end your device's problems in just a few minutes (Requires unlocked bootloader for ROM installation)
 
 # 📙 About The Project
 
