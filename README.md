@@ -13,7 +13,7 @@ So after a lot of time spent trying to "revive" my cell phone, I got it, I thoug
 # 🔗 Usage
 
 - The script has been tested on linux (Ubuntu) and a windows port will soon be made
-- First, it will check if you already have ADB-Tools and Fastboot, if you don't, don't worry, it will download it for you
+- First, it will check if you already have ADB-Tools and Fastboot, if you don't have, don't worry, it will download it for you
 - Second, it will ask you if you want to download the ROM to your device (highly recommended, as it comes from a fully updated mirror)
 - Enter the Product/Variant found on your device's Fastboot screen, or in the box itself, so the script can find the appropriate ROM
 - While the image is downloading, put your phone in Fastboot mode (by pressing and holding the power button and the volume down) and plug it into your computer via usb, if you haven't already done it.
