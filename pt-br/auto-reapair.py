@@ -54,7 +54,7 @@ def Detect_And_Install():
         fastboot = os.popen('fastboot devices').readlines()
     except:
         print('[X] Ocorreu um erro no processo de instalação, tente novamente')
-    if 'fastboot' in fastboot:
+    if fastboot:
         a = 0
         os.system('clear')
         print("[V] Aparelho Detectado!")
@@ -97,7 +97,7 @@ def Detect_And_Install():
 def Main():
     LookAndInstall()
     q = input('[|] Quer baixar uma ROM apropriada para o seu dispositivo? [S / N]: ')
-    if 'Y' in q or 'y' in q:
+    if 'S' in q or 's' in q:
         try:
             dispositivo = input('[V] Por favor Digite o Nome do seu Dispositivo: ')
             FindRom(str(dispositivo))
