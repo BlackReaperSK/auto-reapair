@@ -76,7 +76,8 @@ int Detect(){
 int Install(){
     Detect();
     printf("[V] Installing ROM.....\n");
-    sleep(1.0);
+    printf("[|] Make Sure That the Script is running on same paste of the ROM.....");
+    sleep(4.5);
     system("fastboot oem fb_ mode_set");
     sleep(2); // Previnir Erros.
     system("fastboot flash partition gpt.bin");
