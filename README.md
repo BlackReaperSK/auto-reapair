@@ -1,4 +1,6 @@
-# 🔧 Auto-Reapair == Auto ROM Install📱
+<h1 align="center"> 🔧 Auto-Reapair == Auto ROM Install📱</h1>
+
+
 ![Android Bootloader](https://www.centralandroid.com.br/wp-content/uploads/2018/09/android-bootloader-1280x720.jpg)
 
 
